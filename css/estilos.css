@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  /*Quitar el background color*/
+
+  background-color: rgb(111, 205, 205);
+  width: 100vw;
+}
+
+.div1{
+  width: 100%;
+  background-color: #496DDB;
+  height: 100vh;
+}
+
+.cabecera header img{
+  border-radius: 50%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+.arrow-down {
+  padding-bottom: 20px;
+}
+.arrow-down img {
+  height: 55px;
+  display: block;
+  margin: auto;
+  animation: pulso 2s infinite;
+
+}
+
+@keyframes pulso {
+  0% {
+      transform: translate(0, 0);
+    }
+  50% {
+      transform: translate(0, 10px);
+    }
+  100% {
+      transform: translate(0, 0);
+    }
+}
+
+.div2{
+
+}
