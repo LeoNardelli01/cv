@@ -2,10 +2,6 @@
 $().ready(function(){
   AOS.init();
 
-  $("header").attr("data-aos", "fade-up");
-
-  
-
 
 });
 
@@ -15,11 +11,14 @@ $().ready(function(){
 $(window).on("scroll", function() {
     var scrollHeight = $(document).height();
     var scrollPosition =  $(window).height() + $(window).scrollTop();
+    var scrollLimit = scrollHeight - 50;
 
+    console.log("limite: "+scrollLimit);
+    console.log("posicion: "+scrollPosition);
 
-    if (scrollPosition == scrollHeight){
+    if (scrollPosition == scrollLimit){
 
-      $("#arrow-down img").hide();
+      $("#arrow-down img").hide("slow");
     }
 
 });

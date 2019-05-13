@@ -4,16 +4,20 @@
 }
 
 .contenedor {
-  /*Quitar el background color*/
 
-  background-color: rgb(111, 205, 205);
   width: 100vw;
 }
 
 .div1{
   width: 100%;
-  background-color: #496DDB;
+  background-image: url("../assets/img/fondo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
   height: 100vh;
+  padding-top: 20px;
+
 }
 
 .cabecera header img{
@@ -26,6 +30,7 @@
   padding-bottom: 20px;
 }
 .arrow-down img {
+
   height: 55px;
   display: block;
   margin: auto;
@@ -46,5 +51,5 @@
 }
 
 .div2{
-
+  background-color: rgb(147, 89, 114);
 }
