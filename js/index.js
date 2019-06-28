@@ -6,7 +6,6 @@ $().ready(function(){
 });
 
 
-
 //Eventos SCROLL
 $(window).on("scroll", function() {
     var scrollHeight = $(document).height();
